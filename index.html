@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="section">
+      <div class="crative">
+        <img
+          class="test d-none"
+          src="down.png"
+          id="test"
+          onclick="scrollDown()"
+        />
+        <video
+          controls
+          class="video"
+          controls="false"
+          autoplay="autoplay"
+          id="video"
+        >
+          <source src="look1.mov" type="video/mp4" class="video" />
+        </video>
+        <div class="tabs">
+          <div class="holddiv"></div>
+          <img src="arrow.png" alt="" onclick="toggleup(this)" class="arrow" />
+          <div class="tab">
+            <div class="img-cnt tab-active" onclick="activeTab(this,1)">
+              <img src="tab1.png" alt="" />
+            </div>
+            <div class="img-cnt" onclick="activeTab(this,2)">
+              <img src="tab2.png" alt="" />
+            </div>
+            <div class="img-cnt" onclick="activeTab(this,3)">
+              <img src="tab3.png" alt="" />
+            </div>
+            <div class="img-cnt" onclick="activeTab(this,4)">
+              <img src="tab4.png" alt="" />
+            </div>
+            <div class="img-cnt" onclick="activeTab(this,5)">
+              <img src="tab5.png" alt="" />
+            </div>
+            <div class="img-cnt" onclick="activeTab(this,6)">
+              <img src="tab6.png" alt="" />
+            </div>
+          </div>
+          <div class="contain noneheight" id="contain1">
+            <div class="upper-body">
+              <img src="ui2.jpg" alt="" />
+              <div class="body-text">
+                <p>Elized Printed</p>
+
+                <p>crew neck T-shirt</p>
+
+                <p>In Blue</p>
+                <button>add to card</button>
+              </div>
+              <div class="crew-neck-font">
+                <p>₹ 1,295.00</p>
+              </div>
+            </div>
+
+            <div class="upper-body">
+              <img src="pant.jpeg" alt="" />
+              <div class="body-text">
+                <p>Elized Printed1</p>
+
+                <p>crew neck T-shirt</p>
+
+                <p>In Blue</p>
+                <button>add to card</button>
+              </div>
+              <div class="crew-neck-font">
+                <p>₹ 1,295.00</p>
+              </div>
+
+              <!-- <div class="test" id="test2" onclick="scrollUp()"></div> -->
+            </div>
+          </div>
+          <div class="contain noneheight" id="contain2">
+            <div class="upper-body">
+              <img src="ui2.jpg" alt="" />
+              <div class="body-text">
+                <p>Elized Printed2</p>
+
+                <p>crew neck T-shirt</p>
+
+                <p>In Blue</p>
+                <button>add to card</button>
+              </div>
+              <div class="crew-neck-font">
+                <p>₹ 1,295.00</p>
+              </div>
+            </div>
+
+            <div class="upper-body">
+              <img src="pant.jpeg" alt="" />
+              <div class="body-text">
+                <p>Elized Printed</p>
+
+                <p>crew neck T-shirt</p>
+
+                <p>In Blue</p>
+                <button>add to card</button>
+              </div>
+              <div class="crew-neck-font">
+                <p>₹ 1,295.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contain noneheight" id="contain3">
+            <div class="upper-body">
+              <img src="ui2.jpg" alt="" />
+              <div class="body-text">
+                <p>Elized Printed3</p>
+
+                <p>crew neck T-shirt</p>
+
+                <p>In Blue</p>
+                <button>add to card</button>
+              </div>
+              <div class="crew-neck-font">
+                <p>₹ 1,295.00</p>
+              </div>
+            </div>
+
+            <div class="upper-body">
+              <img src="pant.jpeg" alt="" />
+              <div class="body-text">
+                <p>Elized Printed</p>
+
+                <p>crew neck T-shirt</p>
+
+                <p>In Blue</p>
+                <button>add to card</button>
+              </div>
+              <div class="crew-neck-font">
+                <p>₹ 1,295.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contain noneheight" id="contain4">
+            <div class="upper-body">
+              <img src="ui2.jpg" alt="" />
+              <div class="body-text">
+                <p>Elized Printed4</p>
+
+                <p>crew neck T-shirt</p>
+
+                <p>In Blue</p>
+                <button>add to card</button>
+              </div>
+              <div class="crew-neck-font">
+                <p>₹ 1,295.00</p>
+              </div>
+            </div>
+
+            <div class="upper-body">
+              <img src="pant.jpeg" alt="" />
+              <div class="body-text">
+                <p>Elized Printed</p>
+
+                <p>crew neck T-shirt</p>
+
+                <p>In Blue</p>
+                <button>add to card</button>
+              </div>
+              <div class="crew-neck-font">
+                <p>₹ 1,295.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contain noneheight" id="contain5">
+            <div class="upper-body">
+              <img src="ui2.jpg" alt="" />
+              <div class="body-text">
+                <p>Elized Printed5</p>
+
+                <p>crew neck T-shirt</p>
+
+                <p>In Blue</p>
+                <button>add to card</button>
+              </div>
+              <div class="crew-neck-font">
+                <p>₹ 1,295.00</p>
+              </div>
+            </div>
+
+            <div class="upper-body">
+              <img src="pant.jpeg" alt="" />
+              <div class="body-text">
+                <p>Elized Printed</p>
+
+                <p>crew neck T-shirt</p>
+
+                <p>In Blue</p>
+                <button>add to card</button>
+              </div>
+              <div class="crew-neck-font">
+                <p>₹ 1,295.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contain noneheight" id="contain6">
+            <div class="upper-body">
+              <img src="ui2.jpg" alt="" />
+              <div class="body-text">
+                <p>Elized Printed6</p>
+
+                <p>crew neck T-shirt</p>
+
+                <p>In Blue</p>
+                <button>add to card</button>
+              </div>
+              <div class="crew-neck-font">
+                <p>₹ 1,295.00</p>
+              </div>
+            </div>
+
+            <div class="upper-body">
+              <img src="pant.jpeg" alt="" />
+              <div class="body-text">
+                <p>Elized Printed</p>
+
+                <p>crew neck T-shirt</p>
+
+                <p>In Blue</p>
+                <button>add to card</button>
+              </div>
+              <div class="crew-neck-font">
+                <p>₹ 1,295.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
