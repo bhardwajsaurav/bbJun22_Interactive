@@ -111,7 +111,6 @@
 
 .upper-body img {
   width: 55%;
-
   position: relative;
   z-index: 5;
   height: 300px;
@@ -119,7 +118,9 @@
 }
 
 .upper-body {
+  border: 2px solid #cace00;
   display: flex;
+  margin: 1rem 0;
   align-items: inherit;
   position: relative;
   padding: 0 20px 0 20px;
@@ -166,15 +167,11 @@
 }
 
 .arrow {
-  position: absolute;
-  top: -14px;
   width: 20px;
   z-index: 55;
   transform: all 0.5s ease;
   transform: rotate(178deg);
-  left: 50%;
   z-index: 150;
-
   margin-left: -3px;
 }
 
@@ -187,13 +184,15 @@
 }
 
 .holddiv {
+  display: flex;
+  justify-content: center;
   width: 111px;
-  height: 20px;
+  height: 12px;
   position: absolute;
   left: 50%;
   margin-left: -50px;
   background: white;
-  top: -20px;
+  top: -12px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   z-index: 150;
