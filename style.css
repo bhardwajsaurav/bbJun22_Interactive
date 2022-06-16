@@ -219,6 +219,10 @@
   display: none;
 }
 
+#contain6 {
+  display: none;
+}
+
 .test {
   position: absolute;
   width: 101px;
@@ -226,8 +230,14 @@
   bottom: 0;
   right: 0;
   z-index: 100;
+  transition: all 0.5s ease;
 }
 
 .d-none {
   display: none;
+}
+
+.up {
+  bottom: 190px;
+  transform: rotate(180deg);
 }
