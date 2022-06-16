@@ -1,294 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
 
-  <body>
-    <section class="section">
-      <div class="simple">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-      <div class="crative" id="crative">
-        <img
-          class="test d-none"
-          src="./assets/icons/down.png"
-          id="test"
-          onclick="scrollDown()"
-        />
-        <video
-          controls
-          class="video"
-          controls="false"
-          autoplay="autoplay"
-          id="video"
-        >
-          <source
-            src="./assets/videos/look1.mov"
-            type="video/mp4"
-            class="video"
-          />
-        </video>
-        <div class="tabs">
-          <div class="holddiv" onclick="toggleup(this)">
-            <img
-              src="./assets/icons/arrow.png"
-              alt=""
-              id="arrow"
-              class="arrow"
-            />
-          </div>
+	<body>
+		<section class="section">
+			<div class="simple">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
 
-          <div class="tab">
-            <div class="img-cnt tab-active" onclick="activeTab(this,1)">
-              <img src="./assets/icons/tab1.png" alt="" />
-            </div>
-            <div class="img-cnt" onclick="activeTab(this,2)">
-              <img src="./assets/icons/tab2.png" alt="" />
-            </div>
-            <div class="img-cnt" onclick="activeTab(this,3)">
-              <img src="./assets/icons/tab3.png" alt="" />
-            </div>
-            <div class="img-cnt" onclick="activeTab(this,4)">
-              <img src="./assets/icons/tab4.png" alt="" />
-            </div>
-            <div class="img-cnt" onclick="activeTab(this,5)">
-              <img src="./assets/icons/tab5.png" alt="" />
-            </div>
-            <div class="img-cnt" onclick="activeTab(this,6)">
-              <img src="./assets/icons/tab6.png" alt="" />
-            </div>
-          </div>
-          <div class="contain noneheight" id="contain1">
-            <div class="upper-body">
-              <img src="./assets/img/BLACKBERRY1.png" alt="" />
-              <div class="body-text">
-                <p>Elized Printed</p>
-                <p>crew neck T-shirt</p>
-                <p>In Blue</p>
-                <a href="#" target="_blank"><button>ADD TO CART</button></a>
-              </div>
-              <div class="crew-neck-font">
-                <p>₹ 1,295.00</p>
-              </div>
-            </div>
+			<div class="crative" id="crative">
+				<img
+					class="test d-none"
+					src="./assets/icons/down.png"
+					id="test"
+					onclick="scrollDown()"
+				/>
+				<video
+					controls
+					class="video"
+					controls="false"
+					autoplay="autoplay"
+					id="video"
+				>
+					<source
+						src="./assets/videos/look1.mov"
+						type="video/mp4"
+						class="video"
+					/>
+				</video>
+				<div class="tabs">
+					<div class="holddiv" onclick="toggleup(this)">
+						<img
+							src="./assets/icons/arrow.png"
+							alt=""
+							id="arrow"
+							class="arrow"
+						/>
+					</div>
 
-            <div class="upper-body">
-              <img src="./assets/img/BLACKBERRY1_2.png" alt="" />
-              <div class="body-text">
-                <p>Comet Casual</p>
-                <p>Structure Shorts</p>
-                <p>In Sky</p>
-                <a href="#" target="_blank"><button>ADD TO CART</button></a>
-              </div>
-              <div class="crew-neck-font">
-                <p>₹ 1,495.00</p>
-              </div>
+					<div class="tab">
+						<div class="img-cnt tab-active" onclick="activeTab(this,1)">
+							<img src="./assets/icons/tab1.png" alt="" />
+						</div>
+						<div class="img-cnt" onclick="activeTab(this,2)">
+							<img src="./assets/icons/tab2.png" alt="" />
+						</div>
+						<div class="img-cnt" onclick="activeTab(this,3)">
+							<img src="./assets/icons/tab3.png" alt="" />
+						</div>
+						<div class="img-cnt" onclick="activeTab(this,4)">
+							<img src="./assets/icons/tab4.png" alt="" />
+						</div>
+						<div class="img-cnt" onclick="activeTab(this,5)">
+							<img src="./assets/icons/tab5.png" alt="" />
+						</div>
+						<div class="img-cnt" onclick="activeTab(this,6)">
+							<img src="./assets/icons/tab6.png" alt="" />
+						</div>
+					</div>
+					<div class="contain noneheight" id="contain1">
+						<div class="upper-body">
+							<img src="./assets/img/BLACKBERRY1.png" alt="" />
+							<div class="body-text">
+								<p>Elized Printed</p>
+								<p>crew neck T-shirt</p>
+								<p>In Blue</p>
+								<a href="#" target="_blank"
+									><button>ADD TO CART</button></a
+								>
+							</div>
+							<div class="crew-neck-font">
+								<p>₹ 1,295.00</p>
+							</div>
+						</div>
 
-              <!-- <div class="test" id="test2" onclick="scrollUp()"></div> -->
-            </div>
-          </div>
-          <div class="contain noneheight" id="contain2">
-            <div class="upper-body">
-              <img src="./assets/img/BLACKBERRY2.png" alt="" />
-              <div class="body-text">
-                <p>Elized Printed</p>
-                <p>crew neck T-shirt</p>
-                <p>In Blue</p>
-                <a href="#" target="_blank"><button>ADD TO CART</button></a>
-              </div>
-              <div class="crew-neck-font">
-                <p>₹ 1,295.00</p>
-              </div>
-            </div>
-            <div class="upper-body">
-              <img src="./assets/img/BLACKBERRY2_2.png" alt="" />
-              <div class="body-text">
-                <p>Combus Casual</p>
-                <p>Solid Shorts</p>
-                <p>In Beige</p>
-                <a href="#" target="_blank"><button>ADD TO CART</button></a>
-              </div>
-              <div class="crew-neck-font">
-                <p>₹ 1,356.00</p>
-              </div>
-            </div>
-          </div>
+						<div class="upper-body">
+							<img src="./assets/img/BLACKBERRY1_2.png" alt="" />
+							<div class="body-text">
+								<p>Comet Casual</p>
+								<p>Structure Shorts</p>
+								<p>In Sky</p>
+								<a href="#" target="_blank"
+									><button>ADD TO CART</button></a
+								>
+							</div>
+							<div class="crew-neck-font">
+								<p>₹ 1,495.00</p>
+							</div>
 
-          <div class="contain noneheight" id="contain3">
-            <div class="upper-body">
-              <img src="./assets/img/BLACKBERRY3.png" alt="" />
-              <div class="body-text">
-                <p>Phil Printed</p>
+							<!-- <div class="test" id="test2" onclick="scrollUp()"></div> -->
+						</div>
+					</div>
+					<div class="contain noneheight" id="contain2">
+						<div class="upper-body">
+							<img src="./assets/img/BLACKBERRY2.png" alt="" />
+							<div class="body-text">
+								<p>Elized Printed</p>
+								<p>crew neck T-shirt</p>
+								<p>In Blue</p>
+								<a href="#" target="_blank"
+									><button>ADD TO CART</button></a
+								>
+							</div>
+							<div class="crew-neck-font">
+								<p>₹ 1,295.00</p>
+							</div>
+						</div>
+						<div class="upper-body">
+							<img src="./assets/img/BLACKBERRY2_2.png" alt="" />
+							<div class="body-text">
+								<p>Combus Casual</p>
+								<p>Solid Shorts</p>
+								<p>In Beige</p>
+								<a href="#" target="_blank"
+									><button>ADD TO CART</button></a
+								>
+							</div>
+							<div class="crew-neck-font">
+								<p>₹ 1,356.00</p>
+							</div>
+						</div>
+					</div>
 
-                <p>Crew Neck T-shirt</p>
+					<div class="contain noneheight" id="contain3">
+						<div class="upper-body">
+							<img src="./assets/img/BLACKBERRY3.png" alt="" />
+							<div class="body-text">
+								<p>Phil Printed</p>
 
-                <p>In White</p>
-                <a href="#" target="_blank"><button>ADD TO CART</button></a>
-              </div>
-              <div class="crew-neck-font">
-                <p>₹ 1,295.00</p>
-              </div>
-            </div>
+								<p>Crew Neck T-shirt</p>
 
-            <div class="upper-body">
-              <img src="./assets/img/BLACKBERRY2_2.png" alt="" />
-              <div class="body-text">
-                <p>Comet Casual</p>
-                <p>Structure Shorts</p>
-                <p>In Sky</p>
-                <a href="#" target="_blank"><button>ADD TO CART</button></a>
-              </div>
-              <div class="crew-neck-font">
-                <p>₹ 1,495.00</p>
-              </div>
-            </div>
-          </div>
+								<p>In White</p>
+								<a href="#" target="_blank"
+									><button>ADD TO CART</button></a
+								>
+							</div>
+							<div class="crew-neck-font">
+								<p>₹ 1,295.00</p>
+							</div>
+						</div>
 
-          <div class="contain noneheight" id="contain4">
-            <div class="upper-body">
-              <img src="./assets/img/BLACKBERRY4.png" alt="" />
-              <div class="body-text">
-                <p>Melvin Slim Fit</p>
-                <p>Stretch TShirt</p>
-                <p>In Navy</p>
-                <a href="#" target="_blank"><button>ADD TO CART</button></a>
-              </div>
-              <div class="crew-neck-font">
-                <p>₹ 1,615.00</p>
-              </div>
-            </div>
+						<div class="upper-body">
+							<img src="./assets/img/BLACKBERRY2_2.png" alt="" />
+							<div class="body-text">
+								<p>Comet Casual</p>
+								<p>Structure Shorts</p>
+								<p>In Sky</p>
+								<a href="#" target="_blank"
+									><button>ADD TO CART</button></a
+								>
+							</div>
+							<div class="crew-neck-font">
+								<p>₹ 1,495.00</p>
+							</div>
+						</div>
+					</div>
 
-            <div class="upper-body">
-              <img src="./assets/img/BLACKBERRY4_2.png" alt="" />
-              <div class="body-text">
-                <p>Rois Casual</p>
-                <p>Solid Shorts</p>
-                <p>In Navy</p>
-                <a href="#" target="_blank"><button>ADD TO CART</button></a>
-              </div>
-              <div class="crew-neck-font">
-                <p>₹ 1,295.00</p>
-              </div>
-            </div>
-          </div>
+					<div class="contain noneheight" id="contain4">
+						<div class="upper-body">
+							<img src="./assets/img/BLACKBERRY4.png" alt="" />
+							<div class="body-text">
+								<p>Melvin Slim Fit</p>
+								<p>Stretch TShirt</p>
+								<p>In Navy</p>
+								<a href="#" target="_blank"
+									><button>ADD TO CART</button></a
+								>
+							</div>
+							<div class="crew-neck-font">
+								<p>₹ 1,615.00</p>
+							</div>
+						</div>
 
-          <div class="contain noneheight" id="contain5">
-            <div class="upper-body">
-              <img src="./assets/img/BLACKBERRY5.png" alt="" />
-              <div class="body-text">
-                <p>Yang Casual</p>
-                <p>Solid Shorts</p>
-                <p>In White</p>
-                <a href="#" target="_blank"><button>ADD TO CART</button></a>
-              </div>
-              <div class="crew-neck-font">
-                <p>₹ 1,795.00</p>
-              </div>
-            </div>
+						<div class="upper-body">
+							<img src="./assets/img/BLACKBERRY4_2.png" alt="" />
+							<div class="body-text">
+								<p>Rois Casual</p>
+								<p>Solid Shorts</p>
+								<p>In Navy</p>
+								<a href="#" target="_blank"
+									><button>ADD TO CART</button></a
+								>
+							</div>
+							<div class="crew-neck-font">
+								<p>₹ 1,295.00</p>
+							</div>
+						</div>
+					</div>
 
-            <div class="upper-body">
-              <img src="./assets/img/BLACKBERRY5_2.png" alt="" />
-              <div class="body-text">
-                <p>Comet Casual</p>
-                <p>Structure Shorts</p>
-                <p>In Pink</p>
-                <a href="#" target="_blank"><button>ADD TO CART</button></a>
-              </div>
-              <div class="crew-neck-font">
-                <p>₹ 1,495.00</p>
-              </div>
-            </div>
-          </div>
+					<div class="contain noneheight" id="contain5">
+						<div class="upper-body">
+							<img src="./assets/img/BLACKBERRY5.png" alt="" />
+							<div class="body-text">
+								<p>Yang Casual</p>
+								<p>Solid Shorts</p>
+								<p>In White</p>
+								<a href="#" target="_blank"
+									><button>ADD TO CART</button></a
+								>
+							</div>
+							<div class="crew-neck-font">
+								<p>₹ 1,795.00</p>
+							</div>
+						</div>
 
-          <div class="contain noneheight" id="contain6">
-            <div class="upper-body">
-              <img src="./assets/img/BLACKBERRY6.png" alt="" />
-              <div class="body-text">
-                <p>Theo Casual Linen</p>
-                <p>Solid Full Sleeves Shirt</p>
-                <p>In Navy</p>
-                <a href="#" target="_blank"><button>ADD TO CART</button></a>
-              </div>
-              <div class="crew-neck-font extra">
-                <p>₹ 2,795.00</p>
-              </div>
-            </div>
+						<div class="upper-body">
+							<img src="./assets/img/BLACKBERRY5_2.png" alt="" />
+							<div class="body-text">
+								<p>Comet Casual</p>
+								<p>Structure Shorts</p>
+								<p>In Pink</p>
+								<a href="#" target="_blank"
+									><button>ADD TO CART</button></a
+								>
+							</div>
+							<div class="crew-neck-font">
+								<p>₹ 1,495.00</p>
+							</div>
+						</div>
+					</div>
 
-            <div class="upper-body">
-              <img src="./assets/img/BLACKBERRY6_2.png" alt="" />
-              <div class="body-text">
-                <p>Rois Casual</p>
-                <p>Solid Shorts</p>
-                <p>In White</p>
-                <a href="#" target="_blank"><button>ADD TO CART</button></a>
-              </div>
-              <div class="crew-neck-font">
-                <p>₹ 1,495.00</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="first-image" id="frame">
-          <img src="./assets/img/Summer.png" alt="" class="summer" />
-          <img src="./assets/img/is-a-state-of.png" alt="" class="state" />
-          <img src="./assets/img/mind.png" alt="" class="mind" />
+					<div class="contain noneheight" id="contain6">
+						<div class="upper-body">
+							<img src="./assets/img/BLACKBERRY6.png" alt="" />
+							<div class="body-text">
+								<p>Theo Casual Linen</p>
+								<p>Solid Full Sleeves Shirt</p>
+								<p>In Navy</p>
+								<a href="#" target="_blank"
+									><button>ADD TO CART</button></a
+								>
+							</div>
+							<div class="crew-neck-font extra">
+								<p>₹ 2,795.00</p>
+							</div>
+						</div>
 
-          <img src="./assets/img/f1-bg.jpg" />
+						<div class="upper-body">
+							<img src="./assets/img/BLACKBERRY6_2.png" alt="" />
+							<div class="body-text">
+								<p>Rois Casual</p>
+								<p>Solid Shorts</p>
+								<p>In White</p>
+								<a href="#" target="_blank"
+									><button>ADD TO CART</button></a
+								>
+							</div>
+							<div class="crew-neck-font">
+								<p>₹ 1,495.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="first-image" id="frame">
+					<img src="./assets/img/Summer.png" alt="" class="summer" />
+					<img src="./assets/img/is-a-state-of.png" alt="" class="state" />
+					<img src="./assets/img/mind.png" alt="" class="mind" />
+					<img src="./assets/img/f1-bg.jpg" />
+					<img
+						src="./assets/img/tap-to-engage.png"
+						alt=""
+						class="engage"
+						onclick="removeframe()"
+					/>
+				</div>
+			</div>
 
-          <img
-            src="./assets/img/tap-to-engage.png"
-            alt=""
-            class="engage"
-            onclick="removeframe()"
-          />
-        </div>
-      </div>
+			<div class="simple">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+		</section>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
 
-      <div class="simple">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-    </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-
-    <script src="index.js"></script>
-  </body>
+		<script src="index.js"></script>
+	</body>
 </html>
