@@ -215,7 +215,7 @@ let scene4 = new ScrollMagic.Scene({
   triggerElement: ".crative",
   triggerHook: 0.5,
 })
-  .setClassToggle(".engage", "engage1")
+  .setClassToggle(".engage", "engage2")
   .addTo(controller3);
 
 const removeframe = () => {
