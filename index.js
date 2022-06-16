@@ -52,6 +52,7 @@ const activeTab = (e, i) => {
     document.getElementById("contain3").style.display = "none";
     document.getElementById("contain4").style.display = "block";
     document.getElementById("contain5").style.display = "none";
+    document.getElementById("contain6").style.display = "none";
     document.getElementsByClassName("tab")[0].scrollTo({
       left: 50,
       behavior: "smooth",
@@ -179,4 +180,44 @@ const scrollDown = () => {
     flag2 = false;
     flag = true;
   }
+};
+
+let controller = new ScrollMagic.Controller();
+
+let scene = new ScrollMagic.Scene({
+  triggerElement: ".crative",
+  triggerHook: 0.5,
+})
+  .setClassToggle(".summer", "leftzero")
+  .addTo(controller);
+
+let controller2 = new ScrollMagic.Controller();
+
+let scene2 = new ScrollMagic.Scene({
+  triggerElement: ".crative",
+  triggerHook: 0.5,
+})
+  .setClassToggle(".mind", "rightzero")
+  .addTo(controller2);
+
+let controller3 = new ScrollMagic.Controller();
+
+let scene3 = new ScrollMagic.Scene({
+  triggerElement: ".crative",
+  triggerHook: 0.5,
+})
+  .setClassToggle(".state", "leftzero")
+  .addTo(controller3);
+
+let controller4 = new ScrollMagic.Controller();
+
+let scene4 = new ScrollMagic.Scene({
+  triggerElement: ".crative",
+  triggerHook: 0.5,
+})
+  .setClassToggle(".engage", "engage1")
+  .addTo(controller3);
+
+const removeframe = () => {
+  document.getElementById("frame").style.top = "-500%";
 };
