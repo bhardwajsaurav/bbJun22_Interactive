@@ -54,7 +54,7 @@ const activeTab = (e, i) => {
     document.getElementById("contain5").style.display = "none";
     document.getElementById("contain6").style.display = "none";
     document.getElementsByClassName("tab")[0].scrollTo({
-      left: 50,
+      left: 100,
       behavior: "smooth",
     });
   }
@@ -68,7 +68,7 @@ const activeTab = (e, i) => {
     document.getElementById("contain5").style.display = "block";
     document.getElementById("contain6").style.display = "none";
     document.getElementsByClassName("tab")[0].scrollTo({
-      left: 150,
+      left: 200,
       behavior: "smooth",
     });
   }

@@ -13,8 +13,8 @@
 }
 
 .crative {
-  width: 360px;
-  height: 640px;
+  width: 320px;
+  height: 480px;
   margin: auto;
   position: relative;
   overflow: hidden;
@@ -40,7 +40,9 @@
   position: relative;
   box-shadow: 0px 1px 17px #00000024;
   z-index: 55;
-  width: 360px;
+
+  width: 318px;
+
   overflow-x: auto;
 }
 
@@ -141,11 +143,13 @@
 .crew-neck-font {
   font-style: italic;
   position: absolute;
-  width: 86%;
+
+  width: 89%;
+
   background-image: linear-gradient(to right, #cace00, #565701);
   text-align: end;
   top: 50%;
-  transform: translate(-57%, -225%);
+  transform: translate(-54%, -225%);
   padding: 5px 24px 5px 0;
   left: 50%;
 }
@@ -163,7 +167,7 @@
   background: black;
   color: white;
   font-size: 9px;
-  width: 69%;
+  width: 75%;
 }
 
 .arrow {
@@ -200,7 +204,7 @@
 
 .video {
   width: 100%;
-  height: 100%;
+  height: 119%;
 }
 
 #contain2 {
@@ -243,7 +247,7 @@
 }
 
 .extra {
-  transform: translate(-57%, -188%);
+  transform: translate(-55%, -146%);
 }
 
 .first-image {
@@ -262,40 +266,41 @@
 }
 img.summer {
   position: absolute;
-  width: 277px;
-  height: 50px;
+  width: 256px;
+  height: 47px;
   left: -200%;
   right: 0;
   margin: auto;
   transition: all 0.5s ease;
-  top: 186px;
+  top: 91px;
 }
 
 img.state {
   position: absolute;
-  width: 230px;
+  width: 184px;
   height: 26px;
   left: -200%;
   right: 0;
   margin: auto;
   transition: all 0.9s ease;
-  top: 242px;
+  top: 153px;
 }
 
 img.mind {
   position: absolute;
-  width: 165px;
-  height: 54px;
+  width: 162px;
+  height: 45px;
   left: 0;
   margin: auto;
   right: -200%;
-  top: 273px;
+  top: 190px;
   transition: all 0.5s ease;
 }
-
 img.engage {
   position: absolute;
-  bottom: 118px;
+
+  bottom: 72px;
+  left: -200%;
   width: 131px;
   height: 57px;
   transition: all 0.5s ease;
@@ -307,13 +312,13 @@ img.engage {
   right: 0 !important;
 }
 .engage2 {
-  left: 114px !important;
+  left: 100px !important;
 }
 
 .simple {
   padding: 0 10px;
   margin: 10px auto 10px;
-  width: 360px;
+  width: 320px;
   border-right: 2px solid #f7f7f7;
   border-left: 2px solid #f7f7f7;
   height: 640px;
